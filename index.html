@@ -4,8 +4,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grandpa's 85th</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="assets/cake.ico">
+        <script src="main.js" type="module"></script>
     </head>
+
     <body>
-        <h1>Happy 85th Birthday Grandpa!</h1>
+        <!--Title and Submission-->
+        <div id="header-container">
+            <h1>Happy 85th Birthday, Grandpa!</h1>
+            <h2>We love you so much and left some birthday wishes below to celebrate you. Cheers to 85 wonderful years of life!</h2>
+        </div>
+
+        <!--Form-->
+        <form id="form-container">
+            <div id="name-container"> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <label for="bday-wish">Leave a bday wish and/or your favorite Grandpa John memory:</label>
+            <textarea id="bday-wish" name="bday-wish" maxlength="500"></textarea>
+            <button type="button">Submit</button>
+        </form>
+
+        <!--Message Section-->
+        <div id="messages-display">
+            <div id="message-container">
+
+            </div>
+        </div>
     </body>
 </html>
